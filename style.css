@@ -1,0 +1,76 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+.boton{
+    background-color: yellow;
+    /*absolute px
+    relaitvas: rem, %, vh, vw */
+
+    /* width: 200px;
+    height: 50px; */
+    
+    display: block;
+    width: fit-content;
+
+    /* margin - padding . border */
+
+    border: solid 5px black;
+     padding: 20px; 
+
+/* padding-top: 3%;
+padding-right: 50%;
+padding-bottom: 25%;
+padding-left: 10%; */
+
+margin: 20px auto;
+} 
+
+
+.cabecera__lista__item{
+    display: inline-block;
+    margin: 3%;
+}
+
+
+.cabecera{
+    background-color: aqua;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+
+
+}
+.cabecera__lista{
+    margin: 0 auto;
+    padding: 0.5% 0;
+    width: 50%;   
+}
+
+
+.whatsapp{
+    width: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.cabera__lista__item--submenu{
+    display: inline-block;
+    margin: 3%;
+    border: 1px white solid;
+    position: relative;
+}
+
+.cabera__lista__item__submenu{
+    list-style: none;
+    position: absolute;
+    border: solid 1px red;
+   top: 10%;
+
+}
+
